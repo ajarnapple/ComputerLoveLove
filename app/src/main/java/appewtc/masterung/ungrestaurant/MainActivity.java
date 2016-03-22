@@ -36,7 +36,16 @@ public class MainActivity extends AppCompatActivity {
         //Button Controller ทำปุ่มให้ทำงาน
         buttonController();
 
+        //Tester Add Value
+        tester();
+
     }   //Main Method นี่คือ Method หลัก Method ห่อหุ่ม Statement
+
+    private void tester() {
+        myManage.addValueToSQLite(1, "user", "pass", "name");
+        myManage.addValueToSQLite(2, "food", "price", "source");
+
+    }
 
     private void buttonController() {
         loginButton.setOnClickListener(new View.OnClickListener() {
