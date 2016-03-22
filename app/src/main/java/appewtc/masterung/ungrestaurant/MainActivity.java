@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
     }   //Main Method นี่คือ Method หลัก Method ห่อหุ่ม Statement
 
     private void tester() {
-        myManage.addValueToSQLite(1, "user", "pass", "name");
-        myManage.addValueToSQLite(2, "food", "price", "source");
+        myManage.addValueToSQLite("user", "pass", "name");
+        myManage.addQuestion("คำถาม", "ก", "ข", "ค", "ง", "1");
 
     }
 
